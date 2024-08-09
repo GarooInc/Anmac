@@ -10,21 +10,21 @@ const MissionVisionValues = () => {
         return (
           <div className='flex flex-col items-start justify-center gap-2 pt-10'>
             <h2 className='font-bold text-2xl text-blue_anmac'>Misión</h2>
-            <p>Nuestra misión es garantizar que todos los medicamentos, ya sean genéricos o de marca, cumplan con los más altos estándares de calidad. Nos dedicamos a promover el uso de medicamentos genéricos y biosimilares de calidad, ya que estos no solo mejoran la salud de las personas, sino también la economía de los países.</p>
+            <p className='font-poppins text-lg'>Nuestra misión es garantizar que todos los medicamentos, ya sean genéricos o de marca, cumplan con los más altos estándares de calidad. Nos dedicamos a promover el uso de medicamentos genéricos y biosimilares de calidad, ya que estos no solo mejoran la salud de las personas, sino también la economía de los países.</p>
           </div>
         );
       case 'Visión':
         return (
           <div className='flex flex-col items-start justify-center gap-2 pt-10'>
             <h2 className='font-bold text-2xl text-blue_anmac'>Visión</h2>
-            <p>Nuestra visión es ser líderes en la promoción de medicamentos genéricos y biosimilares de calidad, contribuyendo al acceso equitativo a la salud a nivel global.</p>
+            <p className='font-poppins text-lg'>Nuestra visión es ser líderes en la promoción de medicamentos genéricos y biosimilares de calidad, contribuyendo al acceso equitativo a la salud a nivel global.</p>
           </div>
         );
       case 'Valores':
         return (
           <div className='flex flex-col items-start justify-center gap-2 pt-10'>
             <h2 className='font-bold text-2xl text-blue_anmac'>Valores</h2>
-            <p>Nuestros valores fundamentales incluyen la calidad, la accesibilidad, la transparencia y el compromiso con la salud y el bienestar de las personas.</p>
+            <p className='font-poppins text-lg'>Nuestros valores fundamentales incluyen la calidad, la accesibilidad, la transparencia y el compromiso con la salud y el bienestar de las personas.</p>
           </div>
         );
       default:

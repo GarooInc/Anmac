@@ -26,3 +26,27 @@
   background-size: cover;
   background-position: center;
 }
+
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+
+}
+
+.custom-grid-sencond {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+@media screen and (max-width: 769px) {
+  .custom-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .custom-grid-sencond {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
