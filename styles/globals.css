@@ -17,3 +17,12 @@
   padding: 120px 24px 160px 24px;
   pointer-events: none;
 }
+
+.backimage{
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('/assets/images/anmac_bg.png');
+  background-size: cover;
+  background-position: center;
+}

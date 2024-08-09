@@ -28,6 +28,8 @@
       fontFamily: {
       },
       colors: {
+        "blue_anmac" : "#0094F6",
+
       },
       placeholderColor: {
         'custom-green': '#6C7731',
