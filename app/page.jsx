@@ -7,7 +7,7 @@ import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex flex-col items-center justify-between">
       <NavBar />
       <section id="/" className="flex flex-col md:flex-row items-center justify-center gap-10 backimage mt-20 md:py-32 pt-10 relative">
         <div className="flex flex-col items-start justify-center md:w-1/2 px-10 gap-2">
@@ -19,7 +19,7 @@ export default function Home() {
           Representa a una amplia gama de empresas comprometidas con la calidad y accesibilidad de los medicamentos. Nos asociamos para luchar por la integridad de los productos que ingresan al mercado, asegurando que la población tenga acceso a medicamentos de calidad, independientemente de si son 
           genéricos o de marca a precios justos. 
           </p>
-          <button className="bg-blue_anmac text-white px-6 py-3 rounded-full mt-4">Contacto</button>
+          <a  href="mailto:Admin@anmac.gt" className="bg-blue_anmac text-white px-6 py-3 rounded-full mt-4 cursor-pointer">Contacto</a>
         </div>
         <div className="flex flex-col items-center justify-center md:w-1/2 px-10">
           <Image src="/assets/images/doctor.png" width={500} height={500} alt="Hero" className="md:absolute md:right-0 md:bottom-0" />
@@ -36,7 +36,7 @@ export default function Home() {
       </section>
 
       <section id="/medicamentos" className="flex flex-col md:flex-row items-center justify-center gap-10 md:p-20 pt-10 px-10 pb-20 relative">
-        <div className="flex flex-col md:items-start md:justify-start justify-center items-center gap-4 md:w-1/2">
+        <div className="flex flex-col md:items-start md:justify-start justify-center items-center gap-4 md:gap-10 md:w-1/2">
           <h2 className="text-4xl font-bold">
             La salud es un <span className="text-blue_anmac">derecho</span>
           </h2>

@@ -8,13 +8,12 @@ import { FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-8 w-full">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         
-        {/* Logo y Descripción */}
         <div>
           <img src="/assets/images/logowhite.png" alt="ANMAC" className="w-40" />
           <p className="text-sm">
-            Somos uma equipe apaixonada e dedicada no campo da medicina comprometida em fornecer cuidados de saúde de alta qualidade à nossa comunidade.
+          Somos un equipo apasionado y dedicado en el campo de la medicina, comprometido en proporcionar atención médica de alta calidad a nuestra comunidad.
           </p>
           <div className="flex mt-4 space-x-4">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -29,26 +28,13 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Quick Links */}
-        <div>
-          <h3 className="text-blue_anmac font-bold mb-4">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:underline">Home</a></li>
-            <li><a href="#" className="hover:underline">About Us</a></li>
-            <li><a href="#" className="hover:underline">Medicines</a></li>
-            <li><a href="#" className="hover:underline">Impact</a></li>
-            <li><a href="#" className="hover:underline">Resources</a></li>
-            <li><a href="#" className="hover:underline">News</a></li>
-          </ul>
-        </div>
-
         {/* Contact Us */}
         <div>
-          <h3 className="text-blue_anmac font-bold mb-4">Contact Us</h3>
+          <h3 className="text-blue_anmac font-bold mb-4">Contacto</h3>
           <ul className="space-y-2 text-sm">
             <li className="flex items-center space-x-2">
                 <FaEnvelope className="w-5 h-5" />
-              <span>anmac@gmail.com</span>
+              <a href='mailto:Admin@anmac.gt'>Admin@anmac.gt</a>
             </li>
             <li className="flex items-center space-x-2">
                 <FaPhone className="w-5 h-5" />
@@ -59,19 +45,19 @@ const Footer = () => {
 
         {/* Subscribe */}
         <div>
-          <h3 className="text-blue_anmac font-bold mb-4">Subscribe to Our Newsletter</h3>
-          <p className="text-sm mb-4">Explore additional Medicine and resources</p>
+          <h3 className="text-blue_anmac font-bold mb-4">Suscríbete a nuestro Newsletter</h3>
+          <p className="text-sm mb-4">Explora recursos adicionales sobre la industria</p>
           <form className="flex">
             <input
               type="email"
-              placeholder="Email Address..."
+              placeholder="Email"
               className="p-2 rounded-l-full w-full text-black"
             />
             <button
               type="submit"
               className="bg-blue_anmac text-white p-2 rounded-r-full"
             >
-              Subscribe
+              Suscribir
             </button>
           </form>
         </div>
